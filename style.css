@@ -11,7 +11,7 @@
 
 .login-box{
     background: #fff;
-    borde: 28px;
+    border-radius: 28px;
     overflow: hidden;
     box-shadow:0 5px 25px rgba(15, 13, 13,0.2);
 }
@@ -19,4 +19,16 @@
 .login-image{
     width: 70%;
     object-fit: cover;
+}
+
+.form-section{
+    padding: 60px;
+}
+
+.login-btn{
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
