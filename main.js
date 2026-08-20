@@ -12,7 +12,10 @@ function signin() {
         if (email == "admin@gmail.com") {
             alert("plase enter your email");
         }else{
-            
+
+            if (email == "admin@gmail.com") {
+                alert()
+            }
         }
     }
 
