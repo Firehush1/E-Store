@@ -9,13 +9,12 @@ function signin() {
         alert("plase enter your password");
     } else {
 
-        if (email == "admin@gmail.com") {
-            alert("plase enter your email");
+        if (email == "admin@gmail.com" && password=="admin1234") {
+            alert("login successfully!");
+            window.location.href ="home.html";
         }else{
+            alert("Invalid email or password")
 
-            if (email == "admin@gmail.com") {
-                alert()
-            }
         }
     }
 
