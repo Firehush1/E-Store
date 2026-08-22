@@ -3,7 +3,7 @@ function signin() {
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
 
-    iet form = new FormData();
+    let form = new FormData();
 
     form.append("email",email.value);
     form.append("password", password.value);
