@@ -32,3 +32,17 @@
     align-items: center;
 
 }
+
+.msgBoxclass{
+    backgroumd-color:rgb(16, 41, 41);
+    padding: 20px;
+    marging-top :30px;
+    margin-bottom: 30px;
+    border-radius:20px;
+}
+
+.msgBoxclass span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight:lighter;
+}
