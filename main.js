@@ -23,7 +23,7 @@ function signin() {
         }
         
     }
-
+request.send(form);
     // if (email == "") {
     //     alert("please enter your email");
     // } else if (password == "") {
